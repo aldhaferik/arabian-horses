@@ -1,5 +1,5 @@
 // Public anonymous telemetry. Raw events and service credentials stay server-side.
-const origins = new Set(['https://aldhaferi.net','https://www.aldhaferi.net','https://art2.aldhaferi.net','https://aldhaferik.github.io']);
+const origins = new Set(['https://ahmed.aldhaferi.net','https://aldhaferi.net','https://www.aldhaferi.net','https://art2.aldhaferi.net','https://aldhaferik.github.io']);
 const books = new Set(['horses','proverbs-words-1','hare','hida-bedu','hida','dhabb','jerboas','proverbs-2','proverbs-words-2','desert-literature']);
 const uuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 async function hash(value:string,secret:string){

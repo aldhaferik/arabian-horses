@@ -9,7 +9,7 @@ function notifyLibrary(kind) {
   if (window.parent === window) return;
   try {
     const origin = new URL(document.referrer).origin;
-    if (!["https://aldhaferi.net", "https://www.aldhaferi.net", "https://aldhaferik.github.io", "http://localhost:8080"].includes(origin)) return;
+    if (!["https://ahmed.aldhaferi.net", "https://aldhaferi.net", "https://www.aldhaferi.net", "https://aldhaferik.github.io", "http://localhost:8080"].includes(origin)) return;
     const file = new URL(new URLSearchParams(location.search).get("file"), location.href).pathname.split("/").pop();
     window.parent.postMessage({source:"historian-library",kind,file},origin);
   } catch {}
