@@ -63,3 +63,6 @@ begin
 end; $$;
 revoke all on function public.library_activity(text,text,text,text,uuid) from public,anon,authenticated;
 grant execute on function public.library_activity(text,text,text,text,uuid) to service_role;
+
+-- Restrict the dashboard-created automatic RLS event-trigger helper.
+revoke execute on function public.rls_auto_enable() from public,anon,authenticated;

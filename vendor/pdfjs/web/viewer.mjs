@@ -21347,9 +21347,10 @@ function webViewerLoad() {
     }
   });
   try {
-    parent.document.dispatchEvent(event);
-  } catch (ex) {
-    console.error("webviewerloaded:", ex);
+    const parentOrigin = document.referrer ? new URL(document.referrer).origin : location.origin;
+    if (parent === window || parentOrigin === location.origin) parent.document.dispatchEvent(event);
+    else document.dispatchEvent(event);
+  } catch {
     document.dispatchEvent(event);
   }
   PDFViewerApplication.run(config);
