@@ -1,0 +1,1 @@
+window.LIBRARY_STATS_CONFIG={endpoint:'https://dkbpkbzbbbqdfjiuhjkr.supabase.co/functions/v1/library-stats',anonKey:'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRrYnBrYnpiYmJxZGZqaXVoamtyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE3MzMzODYsImV4cCI6MjEwNzMwOTM4Nn0.jWzilVhsRBhOyhNfo36Utopxmvg86UzuVKdoM6nUQW0'};

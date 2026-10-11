@@ -1,3 +1,19 @@
+window.addEventListener("message", event => {
+  if (event.source === window.parent && event.data?.source === "historian-library" && event.data.kind === "status" && libraryDocumentReady) notifyLibrary("read");
+});
+
+let libraryDocumentReady = false;
+// Library telemetry: send only document filename and action to an allowed parent.
+function notifyLibrary(kind) {
+  if (kind === "read") libraryDocumentReady = true;
+  if (window.parent === window) return;
+  try {
+    const origin = new URL(document.referrer).origin;
+    if (!["https://aldhaferi.net", "https://www.aldhaferi.net", "https://aldhaferik.github.io", "http://localhost:8080"].includes(origin)) return;
+    const file = new URL(new URLSearchParams(location.search).get("file"), location.href).pathname.split("/").pop();
+    window.parent.postMessage({source:"historian-library",kind,file},origin);
+  } catch {}
+}
 /**
  * @licstart The following is the entire license notice for the
  * JavaScript code in this page
@@ -19635,6 +19651,7 @@ const PDFViewerApplication = {
     if (!this.downloadManager) {
       return;
     }
+    notifyLibrary("download");
     this.pdfViewer._layerProperties.annotationEditorUIManager?.endCurrentEditing();
     const {
       classList
@@ -19712,6 +19729,7 @@ const PDFViewerApplication = {
       this._contentLength = length;
       this.loadingBar?.hide();
       firstPagePromise.then(() => {
+        notifyLibrary("read");
         this.eventBus.dispatch("documentloaded", {
           source: this
         });
