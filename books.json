@@ -1,0 +1,82 @@
+[
+  {
+    "id": "horses",
+    "title": "الخيل عند العرب",
+    "originalFilename": "الخيل عند العرب.pdf",
+    "file": "assets/arabian-horses.pdf",
+    "bytes": 42449696,
+    "sha256": "b38349c43f491e372579a6638e20eb56759d37cad0d45d2365013dc3409c0287"
+  },
+  {
+    "id": "proverbs-words-1",
+    "title": "أمثال وكلمات بدوية (الملف الأول)",
+    "originalFilename": "أمثال_وكلمات_بدوية.pdf",
+    "file": "assets/proverbs-words-1.pdf",
+    "bytes": 8588167,
+    "sha256": "0b9c0d54a71ee70344631827381bec23e80dfaf73c506a5cea85404746ff52e9"
+  },
+  {
+    "id": "hare",
+    "title": "الارنب عند البدو",
+    "originalFilename": "الارنب عند البدو.pdf",
+    "file": "assets/hare.pdf",
+    "bytes": 11352921,
+    "sha256": "9ad92b3134119da68b227445681ecd361525500280fe66fae62dc509503f84d9"
+  },
+  {
+    "id": "hida-bedu",
+    "title": "الحداء عند البدو",
+    "originalFilename": "الحداء عند البدو.pdf",
+    "file": "assets/hida-bedu.pdf",
+    "bytes": 6934399,
+    "sha256": "f521f1ad132209aae772de5d6c7196d6896a40ddc5bbfd2864ee65e7a1e9a085"
+  },
+  {
+    "id": "hida",
+    "title": "الحداء",
+    "originalFilename": "الحداء.pdf",
+    "file": "assets/hida.pdf",
+    "bytes": 6934399,
+    "sha256": "46b4088f3797b27140261fcf83db3560fb8ad94fd60b08062cb0f4aad78702d1"
+  },
+  {
+    "id": "dhabb",
+    "title": "الضب",
+    "originalFilename": "الضب.pdf",
+    "file": "assets/dhabb.pdf",
+    "bytes": 259111,
+    "sha256": "800c6cd4af10a08b0a51c50621b9ebf4374f7694b6a6f9514244e1c0ae1965e3"
+  },
+  {
+    "id": "jerboas",
+    "title": "اليرابيع عند البدو",
+    "originalFilename": "اليرابيع عند البدو.pdf",
+    "file": "assets/jerboas.pdf",
+    "bytes": 4665297,
+    "sha256": "f1f6fc676b8806e932d2fa6ebd77bc4d820b1f4ac3f9f54b66ef2b54255e1465"
+  },
+  {
+    "id": "proverbs-2",
+    "title": "امثال بدوية2",
+    "originalFilename": "امثال بدوية2.pdf",
+    "file": "assets/proverbs-2.pdf",
+    "bytes": 8588168,
+    "sha256": "3a2f2b1017421258946351af4ac9bb1005a92ee83a1ee9e24744c3033b899c62"
+  },
+  {
+    "id": "proverbs-words-2",
+    "title": "امثال وكلمات بدوية (الملف الثاني)",
+    "originalFilename": "امثال وكلمات بدوية.pdf",
+    "file": "assets/proverbs-words-2.pdf",
+    "bytes": 9083510,
+    "sha256": "3ba8d6d5b94028194af138ffd3d94ce2784aed46086ae3e47554f676ab73ee69"
+  },
+  {
+    "id": "desert-literature",
+    "title": "من ادب البادية",
+    "originalFilename": "من ادب البادية.pdf",
+    "file": "assets/desert-literature.pdf",
+    "bytes": 10925034,
+    "sha256": "f188eea9e37abf677e0c72a9813ffab1594f97e32065e6f8f1c0924c168a92f6"
+  }
+]

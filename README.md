@@ -1,11 +1,11 @@
-# الخيل عند العرب
+# اعمال المؤرخ احمد بن محارب الظفيري رحمه الله
 
-Public PDF reader for the original user-supplied book.
+Ten original PDFs, preserved byte-for-byte. File names, sizes and SHA-256 checksums are recorded in books.json.
 
-- Main page: https://aldhaferi.net/arabian-horses/
-- Repository website: https://aldhaferik.github.io/arabian-horses/
-- Linked from https://art2.aldhaferi.net/
+Main library: https://aldhaferi.net/arabian-horses/
+Repository website: https://aldhaferik.github.io/arabian-horses/
+Linked from https://art2.aldhaferi.net/.
 
-The PDF is preserved byte-for-byte in `assets/arabian-horses.pdf`. The viewer is locally hosted Mozilla PDF.js v6.4.299 (Apache 2.0; license in vendor/pdfjs/LICENSE), with custom styling and Arabic toolbar defaults. No build or external CDN is required. GitHub Pages publishes main at repository root. The homepage repository contains a lightweight wrapper pointing at this repository's viewer and PDF, so book updates only need to be committed here.
+The homepage repository contains a lightweight wrapper. Files and the complete locally hosted Mozilla PDF.js v6.4.299 reader are served from this repository. PDF.js uses Apache 2.0; see vendor/pdfjs/LICENSE. Custom styling and Arabic toolbar defaults have been applied. Each work has a shareable ?book= URL, and mobile visitors select works from a dropdown. No external CDN or build is needed. GitHub Pages publishes main/root.
 
-Run locally with `python3 -m http.server 8080`.
+Local preview: python3 -m http.server 8080
